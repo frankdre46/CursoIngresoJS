@@ -10,13 +10,14 @@ function mostrar()
 	numeroRandom=Math.floor(Math.random()*(max-min))+min;
 	console.log(numeroRandom);
 	if(numeroRandom>=9&&10){
-		alert("EXCELENTE")
-	}else(numeroRandom>=4||numeroRandom>9);{
-		alert("Aprobo")
-	if(numeroRandom<3)
-	
-		alert("Vamos, la proxima se puede")
+		alert("EXCELENTE")}
+	else{if (numeroRandom>=4||numeroRandom>9) {alert("Aprobo")} else {(numeroRandom<=3);{
+			alert("Vamos, la proxima se puede")}
+			
+		
+	}		
 	}
+	}
+	
 
-
-}//FIN DE LA FUNCIÓN
+//FIN DE LA FUNCIÓN
