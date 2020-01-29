@@ -35,7 +35,7 @@ if (numero>0) {
 	contadorceros++;
 }
 if(numero%2==0){
-	contadorespares++;
+	contadorpares++;
 }
 	respuesta=confirm("Desea continuar?");
 	}
