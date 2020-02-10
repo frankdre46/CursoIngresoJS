@@ -3,24 +3,25 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostrar el resto entre el dividendo y el divisor.
 ej.: "El resto es 0 ."*/
 function SacarResto()
-{   var  numerodividendo;
-    var numerodivisor;
-    var numerodividendoparseado;
-    var numerodivisorparseado;
-    var resultado;
+{  
+    var numerodividendoingresado
+    var numerodivisoringresado
+    var numerodividendoparseado
+    var numerodivisorparseado
+    var resultado
+
+numerodividendoingresado=document.getElementById("numeroDividendo").value
+numerodivisoringresado=document.getElementById("numeroDivisor").value
+///
+numerodividendoparseado=parseInt(numerodividendoingresado)
+numerodivisorparseado=parseInt(numerodivisoringresado)
+
+//////////////////
+    resultado=numerodividendoparseado%numerodivisorparseado
+    resultado="El resultado es "+resultado
 
 
-    numerodividendo=document.getElementById("numeroDividendo").value;
-    numerodivisor=document.getElementById("numeroDivisor").value;
-
-    numerodividendoparseado=parseInt(numerodividendo);
-    numerodivisorparseado=parseInt(numerodivisor);
-
-    //resultado 
-    resultado=numerodividendoparseado % numerodivisorparseado;
-    resultado="El resultado es "+resultado;
-    
-    alert(resultado);
+    alert(resultado)
     
 
 

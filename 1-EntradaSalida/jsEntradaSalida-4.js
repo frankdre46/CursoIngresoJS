@@ -4,14 +4,17 @@
 */
 function mostrar()
 {
-var dato;
+var nombre
+var dato 
+
+/////
+
+nombre=prompt("ingrese nombre")
+
+dato=document.getElementById("elNombre").value
 
 
-
-dato=prompt("Ingrese Nombre");
-
-
-document.getElementById("elNombre").value=dato;
+alert(nombre)
 
 
 
